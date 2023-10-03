@@ -1,0 +1,78 @@
+body{
+    font-family: Arvo, serif;
+    background: url(images/background-image.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.logo{
+    height: 30px;
+}
+.navbar-inverse{
+    background-color: rgba(0,0,0,0.5);
+}
+.nav li{
+    color: #fff;
+    font-size: 17px;
+    margin-right: 35px;
+    padding: 10px 0;
+}
+.nav li:hover{
+    border-bottom: 1px solid #00E3BA;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+
+.jumbotron{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 2.5px;
+    
+}
+.container{
+    max-width: 1000px;
+}
+.bodyimage{
+    height: 100px;
+}
+.col-md-4{
+    text-align: center;
+    color: white;
+}
+.icon p{
+    font-size: 15px;
+}
+.contact{
+    text-align: center;
+    margin-top: 30px;
+     margin-bottom: 100px;
+}
+.btn{
+    background: rgba(0, 227, 186, 0.5);
+    border: none;
+    border-radius: 10px;
+    color:#fff;
+    font-size: 18px;
+    padding: 10px 70px;
+    letter-spacing: 1.3px;
+}
+.btn:hover{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+}
+.footer{
+    background-color: rgba(0,0,0,0.5);
+    color: gray;
+    font-size: 15px;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+@media (max-width: 768px){
+    .bodyimage{
+        height: 70px;
+    }
+}
