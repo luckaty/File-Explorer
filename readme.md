@@ -23,27 +23,17 @@ A full-stack file explorer built using **Node.js**, **Express**, and vanilla **H
 git clone https://github.com/luckaty/File-Explorer.git
 cd File-Explorer
 2. Install Express
-bash
-Copy
-Edit
 npm install express
+
 3. Run the App
-bash
-Copy
-Edit
 node app.js
+
 4. Open in Browser
 Go to:
-
-arduino
-Copy
-Edit
 http://localhost:3000
+
 📁 Folder Structure
-cpp
-Copy
-Edit
-.
+
 ├── app.js
 ├── form.html
 ├── static/
