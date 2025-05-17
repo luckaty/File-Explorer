@@ -51,21 +51,6 @@ Edit
 📜 License
 MIT — Free to use, modify, and share.
 
-yaml
-Copy
-Edit
-
----
-
-### ✅ Next Steps:
-1. Copy that updated content into your `README.md` file  
-2. Save it  
-3. Go to **GitHub Desktop** → Commit and Push  
-   - Commit message: `Update README to include Node.js usage`
-
-Let me know when that’s done and I’ll check it again — it’s going to look **pro**. Ready for your Python security projects next?
-
-
 
 
 
