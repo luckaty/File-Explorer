@@ -1,18 +1,20 @@
 # File Explorer
 
-A responsive and user-friendly file explorer interface built using **Node.js**, HTML, CSS, and JavaScript.
+A full-stack file explorer built using **Node.js**, **Express**, and vanilla **HTML/CSS/JS**.
 
 ## 🔧 Features
-- Clean, browser-based file browser UI
-- Backend powered by Node.js for real-time file access
-- Responsive design with folder and file icons
-- Easily extendable with new features (downloads, uploads, etc.)
+- Reads and displays local files and folders dynamically
+- Clean UI with form and file list
+- Express server using the built-in `fs` module
+- Organized folder structure for scale and improvements
 
 ## 🛠️ Tech Stack
-- Node.js (Express)
+- Node.js
+- Express
 - HTML5
 - CSS3
 - JavaScript (vanilla)
+- File System (fs)
 
 ## 🚀 How to Use
 
@@ -20,16 +22,16 @@ A responsive and user-friendly file explorer interface built using **Node.js**, 
 ```bash
 git clone https://github.com/luckaty/File-Explorer.git
 cd File-Explorer
-2. Install Dependencies
+2. Install Express
 bash
 Copy
 Edit
-npm install
-3. Run the Server
+npm install express
+3. Run the App
 bash
 Copy
 Edit
-node index.js
+node app.js
 4. Open in Browser
 Go to:
 
@@ -38,20 +40,19 @@ Copy
 Edit
 http://localhost:3000
 📁 Folder Structure
-pgsql
+cpp
 Copy
 Edit
-/File-Explorer
-├── index.js
-├── public/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-└── package.json
+.
+├── app.js
+├── form.html
+├── static/
+│   ├── Projects/
+│   ├── Purchased Books/
+│   ├── images/
+│   ├── media/
+│   ├── ...
+├── file.txt
+├── readme.md
 📜 License
 MIT — Free to use, modify, and share.
-
-
-
-
-
